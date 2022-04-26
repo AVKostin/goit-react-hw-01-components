@@ -1,0 +1,7 @@
+{
+  "hooks": {
+    // "pre-commit": "lint-staged",
+    //  top - for linter terminal, bottom - for GitDecktop
+    "pre-commit": "npm lint-staged"
+  }
+}
