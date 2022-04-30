@@ -1,0 +1,17 @@
+/* import styled from '@emotion/styled'; */
+
+.container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    };
+
+.item {
+    padding-bottom: 40px;}
+
+
+.item:last-child {
+    padding-bottom: 0;
+}
