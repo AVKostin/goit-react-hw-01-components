@@ -1,9 +1,10 @@
 import user from './data/user.json';
 import Profile from './components/Profile/Profile';
+import s from './components/Container/Container.module.css';
 
 export default function App() {
   return (
-    <div>
+    <div className={s.container}>
       <Profile
         userName={user.username}
         tag={user.tag}
