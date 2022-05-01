@@ -1,9 +1,10 @@
-import user from './data/user.json';
+import user from './components/data/user.json';
 import Profile from './components/Profile/Profile';
 import Statistics from 'components/Statistics/Statistics';
+import data from './components/data/data.json';
 import s from './components/Container/Container.module.css';
 
-export default function App({ data }) {
+export default function App() {
   return (
     <div className={s.container}>
       <Profile
@@ -18,7 +19,6 @@ export default function App({ data }) {
   );
 }
 
-//  <Statistics title="Upload stats" data={data} />
 //     <FriendList friends={friends} />
 //     <Statistics data={data} />
 //     <TransactionHistory items={transactions} />
