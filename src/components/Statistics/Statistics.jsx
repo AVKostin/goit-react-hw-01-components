@@ -1,13 +1,15 @@
 import PropTypes from 'prop-types';
 import s from './Statistics.module.css';
+import randomColor from '../data/hexRandomColor';
+// const randomColor = () => 'hsla(' + Math.random() * 360 + ', 100%, 50%, 1)';
 
 function Statistics({ title, data }) {
     return (
     <section className={s.statistics}>
         {title && <h2 className={s.title}>{title}</h2>}
 
-            <ul className={s.list}>
-                {data.map(item => (
+        <ul className={s.list}>
+            {data.map(item => (
                 <li
                     className={s.item}
                     key={item.id}
@@ -16,8 +18,8 @@ function Statistics({ title, data }) {
                     <span className={s.label}>{item.label}</span>
                     <span className={s.percentage}>{item.percentage}%</span>
                 </li>
-                ))}
-            </ul>
+            ))}
+        </ul>
     </section>
     );
 };
