@@ -2,6 +2,7 @@
   "name": "react-homework-template",
   "version": "0.1.0",
   "private": true,
+  "main": "index.js",
   "homepage": "https://avkostin.github.io/goit-react-hw-01-components/",
   "dependencies": {
     "@emotion/react": "^11.9.0",
