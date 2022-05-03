@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import s from './Statistics.module.css';
-import randomColor from '../data/hexRandomColor';
+import randomColor from '../../data/hexRandomColor';
 // const randomColor = () => 'hsla(' + Math.random() * 360 + ', 100%, 50%, 1)';
 
 function Statistics({ title, data }) {
